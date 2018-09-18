@@ -1,0 +1,12 @@
+<div>
+  <comment-form [parent]="" (commentAdded)="commentListing.refresh($event)">
+  </comment-form>
+</div>
+
+
+<h4>My Comments</h4>
+<ul>
+  <li *ngFor="let comment of commentService.comments">
+    <label>{{comment.message}}</label>
+  </li>
+</ul>

@@ -1,0 +1,70 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# config file
+src/app/config/app.override.config.json
+src/app/config/app.override.config.bak.json
+
+# Node Specifics
+node_modules/
+npm-debug.*
+.npmrc
+
+# Maven wrapper specifics
+bin/
+/build/
+etc/
+node/
+share/
+lib/
+target/
+.nvmrc
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+/reports
+
+# dependencies
+yarn.lock
+/node
+/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+src/app/config/app.override.config.sample
+
+# IDE - VSCode
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/documentation
+/libpeerconnection.log
+testem.log
+/typings
+/build
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+# Sonar
+/.scannerwork
+
+# System Files
+.DS_Store
+Thumbs.db

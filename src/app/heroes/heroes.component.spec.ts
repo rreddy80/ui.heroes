@@ -1,8 +1,11 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
+import { By }              from '@angular/platform-browser';
+import { DebugElement }    from '@angular/core';
+
 import { HeroesComponent } from './heroes.component';
 
-describe('HeroesComponent', () => {
+fdescribe('HeroesComponent', () => {
   let component: HeroesComponent;
   let fixture: ComponentFixture<HeroesComponent>;
 

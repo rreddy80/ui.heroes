@@ -4,6 +4,7 @@ import { Location } from '@angular/common';
 
 import { Hero }         from '../hero';
 import { HeroService }  from '../hero.service';
+import { CommentService } from '../comment.service';
 
 @Component({
   selector: 'app-hero-detail',
@@ -16,6 +17,7 @@ export class HeroDetailComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
     private heroService: HeroService,
+    private commentService: CommentService,
     private location: Location
   ) {}
 
